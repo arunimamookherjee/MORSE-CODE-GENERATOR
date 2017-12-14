@@ -622,7 +622,7 @@ while i < len(word):
 	    GPIO.output(12,0)
 	    return   
 	    
-	    i++
+	    i=i+1
 	
 GPIO.output(12,1)
 time.sleep(5)
